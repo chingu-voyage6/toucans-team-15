@@ -42,3 +42,4 @@ Create a responsive, pixel perfect, and functionally complete copy of the "Convo
 * For each functionality/task - work on a separate branch.
 * The branch will be merged to `Development` by one of the other team members.
 * At the end of each sprint we will merge `Development` to `Master`.
+
