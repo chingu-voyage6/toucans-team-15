@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	height: 100vh;
+	background-color: #efd1a5;
+	text-align: center;
+	font-size: 60px;
+	line-height: 100vh;
+	margin-bottom: 70px;
+}
+
+.section-about {
+	height: 600px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.temporary-wrapper {
+	width: 600px;
+	
+}
+
+.about-logo {
+	width: 500px;
+	margin-bottom: 40px;
+}
+
+.about-text {
+	margin-bottom: 40px;
+    font-size: 1.5em
+}
+
+.btn-learn {
+	padding: 6px 12px; 
+	background-color: #00A7E1;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+}
