@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+ul {
+	list-style-type: none;
+}
+
 .header {
 	height: 100vh;
 	background-color: #efd1a5;
@@ -14,7 +18,7 @@
 }
 
 .section-about {
-	height: 600px;
+	height: 700px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -42,4 +46,77 @@
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 14px;
+}
+
+.main-footer {
+	background: url(../img/footer-truck.jpg) no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	padding-top: 30px;
+}
+
+.footer-block {
+	width: 1020px;
+}
+
+.copyright {
+	height: 45px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 45px;
+	font-size: 11px;
+	color: #3F3E44;
+}
+
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+	/*flex-wrap: wrap;*/
+	margin-bottom: 120px;
+}
+
+.footer-list-block {
+	padding-top: 75px;
+}
+
+.footer-list-item {
+	color: #fff;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.footer-list-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-list-item-bold {
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.footer-partners {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+
+.footer-social-icon {
+	width: 25px;
+	height: 25px;
+	margin-right: 9px;
+	margin-bottom: 12px;
+}
+
+.footer-hope-text {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 9px;
+	margin-top: 35px;
 }
