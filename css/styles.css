@@ -8,20 +8,49 @@ ul {
 	list-style-type: none;
 }
 
+/*
+* =====================================================
+*     Header
+* =====================================================
+*/
+
 .header {
 	height: 100vh;
 	background-color: #efd1a5;
-	text-align: center;
-	font-size: 60px;
-	line-height: 100vh;
+	background: url(../img/bg-feature-scenarios-guatemala.jpg) no-repeat;
+	background-size: cover;
 	margin-bottom: 70px;
 }
 
+.header-content {
+	padding-top: 230px;
+	text-align: center;
+}
+
+.header-content h1 {
+	color: #fff;
+	font-size: 70px;
+	font-weight: 800;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.header-content .btn-learn {
+	padding: 15px 40px;
+	font-size: 23px;
+}
+
+/*
+* =====================================================
+*     Section About
+* =====================================================
+*/
+
 .section-about {
-	height: 700px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
+	padding-bottom: 80px;
 }
 
 .temporary-wrapper {
@@ -42,18 +71,28 @@ ul {
 .btn-learn {
 	padding: 6px 12px; 
 	background-color: #00A7E1;
-	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 14px;
+	font-weight: 800;
 }
+
+.btn-learn:hover, .btn-learn:focus, .btn-learn.active {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+* =====================================================
+*     Footer
+* =====================================================
+*/
 
 .main-footer {
 	background: url(../img/footer-truck.jpg) no-repeat;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
-	/*align-items: center;*/
 	padding-top: 30px;
 }
 
@@ -61,20 +100,18 @@ ul {
 	width: 1020px;
 }
 
-.copyright {
-	height: 45px;
-	background-color: #fff;
-	text-align: center;
-	line-height: 45px;
+.footer-copyright {
+	height: 44px;
+	line-height: 44px;
 	font-size: 11px;
 	color: #3F3E44;
+	background-color: #fff;
+	text-align: center;
 }
 
 .footer-info {
 	display: flex;
 	justify-content: space-between;
-	/*align-items: center;*/
-	/*flex-wrap: wrap;*/
 	margin-bottom: 120px;
 }
 
@@ -120,3 +157,4 @@ ul {
 	margin-bottom: 9px;
 	margin-top: 35px;
 }
+
