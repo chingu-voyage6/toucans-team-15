@@ -81,315 +81,558 @@ ul {
   color: #fff;
   text-decoration: none;
 }
+
+
+
 /*
 * =====================================================
-*     Our-Impact
+*     Section join-hope
 * =====================================================
 */
-#our-impact 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  position: relative;
-  line-height: 1.1em;
-  margin-bottom: 10px;
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-  text-transform: uppercase;
+
+.sec-join-hope {
+    position: relative;
+    max-width: 63.75rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem;
+    zoom: 1;
+    z-index: 10;
+    text-align: center;
 }
 
-.flexed{
-  display: flex;
-  justify-content: space-between;
+.sec-join-hope:after,
+.sec-join-hope:before {
+    content: "";
+    display: table;
 }
-#our-impact .wrap {
-  padding-top: 80px;
-  padding-bottom: 80px; 
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+.sec-join-hope:after {
+    clear: both;
 }
-#our-impact h2 span {
-   font-weight: 100;
+.sec-join-hope h1 {
+    margin-bottom: 10px;
 }
 
-#our-impact h2 {
-  text-align: center;
-  font-size: 1.3em;
-}
-#our-impact {
-  background: #00a7e1;
-  color: #fff;
-}
-#our-impact .our-impact-title {
-  font-weight: 100;
+.sec-join-hope .change_ul li {
+    zoom: 1;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    margin-bottom: 1rem;
 }
 
-#our-impact div .flexed {
-  margin: 80px 0;
+.sec-join-hope article {
+    display: inline-block;
+    position: relative;
+    border-radius: 10rem;
+    width: 175px;
+    height: 175px;
 }
-#our-impact div .cardo {
- width: 33.3%;
- border-right: 2px solid #0083b2;
- border-right-color: rgba(0, 135, 184, .4);
- padding: 200px 0;
- text-align: center;
- position: relative;
+
+.sec-join-hope img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
-#our-impact div .cardo:last-child {
-  border: none;
+
+.sec-join-hope .hover {
+    display: table-row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0 30px;
+    border-radius: inherit;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
-#our-impact div .centering {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-	justify-content: center;
-	
+.sec-join-hope .hover span {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 1.3em;
+    height: inherit;
+    font-size: .9rem;
 }
-#our-impact .top .centering:last-child {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-	margin-top: 23px;
+
+
+.sec-join-hope .change_ul-li:hover  .dark-grey .hover {
+    background: #3f3e44;
 }
-#our-impact img {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  margin-bottom: 40px
+
+.sec-join-hope .change_ul-li:hover  .orange .hover {
+    background: #ffc20e;
 }
-#our-impact h3 span {
- display: block;
- font-size: 1.8em;
- line-height: 1.1em;
- font-weight: 800;
+
+
+@media screen and (min-width:480px) {
+    .sec-join-hope .change_ul li {
+        width: 50%;
+        float: left;
+        margin-bottom: 2em
+    }
+    .sec-join-hope .change_ul-li:hover .hover {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
 }
+
+@media screen and (max-width: 480px) {
+    .sec-join-hope article {
+        width: 100%;
+        height: 100px;
+        padding-left: 50px;
+    }
+    .sec-join-hope img {
+        width: 100px;
+        height: 100px;
+        right: auto;
+        z-index: 4;
+    }
+    .sec-join-hope .hover {
+        display: block;
+        position: relative;
+        z-index: 0;
+        opacity: 1;
+        background: #3f3e44!important;
+        border-radius: 0;
+        padding-left: 60px;
+        border-top-right-radius: 10rem;
+        border-bottom-right-radius: 10rem;
+    }
+    .sec-join-hope .hover span {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .sec-join-hope article {
+        width: 215px;
+        height: 215px;
+    }
+    .sec-join-hope img {
+        width: 215px;
+        height: 215px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .sec-join-hope .hover span {
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .sec-join-hope h1 span {
+        display: block;
+        line-height: 2rem;
+        letter-spacing: .1rem;
+    }
+    .sec-join-hope img {
+        width: 175px;
+        height: 175px;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+    .sec-join-hope h1 {
+        margin-bottom: 70px;
+       line-height: 2rem;
+       
+    }
+}
+
+
+@media screen and (min-width:960px) {
+    .sec-join-hope .change_ul li {
+        width: 25%;
+        margin-bottom: 0;
+    }
+
+}
+
+
+
 /*
 * =====================================================
-*     Learn-more
+*   section hope carousel
 * =====================================================
 */
-#learn-about h2 {
-  text-align: center;
-  font-size: 1.3em;
+
+
+.sec__hope-carousel h1,
+.sec-partners h1,
+{
+    font-size: 1rem;
+    letter-spacing:  3px;
 }
 
-#learn-about h2 span {
-  font-weight: 100;
+
+
+.sec__hope-carousel {
+    background-color: #a77d54;
+    position: relative;
+    padding: 40px 0;
+    
 }
-#learn-about .wrap {
-  padding-top: 80px;
-  padding-bottom: 10px;
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.learn-more {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: .75em;
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
+.sec__hope-carousel .hope-logo {
+    background: url(../img/hope.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: -7%;
+    height: 114%;
+    width: 100%;
+    z-index: -1;
 }
 
-.learn-more:hover{
-  text-decoration: underline;
+.overflow .empty__box  { 
+    background-color: #fff;
+    margin-top: 20px;
+    height: 10px;
 }
 
-#our-impact .info {
-  position: static;
-  font-family: "Averia Serif Libre", serif;
-  font-weight: 900;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-  font-size: 1em;
-  margin-bottom: 0;
-  display: inline-block;
-  line-height: 1.3em;
-  margin-bottom: 1px;
-  padding: 0 50px;
-  line-height: 1.5em; 
-}
-#our-impact .cardo-small{
-  width: 50%;
-}
-#our-impact .cardo-small .value-format {
-  font-size: 1em;
-  font-stretch: normal
-}
-#our-impact .cardo-small .value-format {
-  position: relative;
-  line-height: 1.0em;
-  margin-bottom: 10px;
-  font-family: proxima-nova,sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-.menu{
-  padding: 40px 0;
-}
-#learn-about{
-  color: #3f3e44;
-  padding-bottom: 80px;
-  margin-bottom: 20px
+.tweet   { 
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    line-height: 2rem;
 }
 
-#learn-about ul li{
-  display: inline-block;
+.tweet .follow__link a {
+    color: #908f8f;
+}
+.tweet .follow a:hover {
+    color: #00a7e1;
+}
+.sec__hope-carousel h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 40px;
+    color: #FFF;
 }
 
-#learn-about i{
-  display: block;
+.sec__hope-carousel section {
+    position: relative;
+    zoom: 1;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
 }
 
-#learn-about .menu a {
-  display: block;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: .875em;
-  color: #d0d0d1;
-  line-height: 1em;
-   text-decoration: none;
+
+.sec__hope-carousel section:after,
+.sec__hope-carousel section:before {
+    content: "";
+    display: table;
+}
+.sec__hope-carousel section:after {
+    clear: both;
+}
+.overflow {
+    width: 30000px;
+    height: 320px;
+    position: relative;
 }
 
-a:-webkit-any-link {
-  cursor: pointer;
+.background__settings {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sec__hope-carousel section article {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 320px;
+    margin: 0 10px;
+    
 }
 
-#learn-about li i {
-  display: block;
-  font-size: 40px;
-  margin-bottom: 9%;
-  margin-right: 0;
-  text-decoration: none;
+.overflow  .change__image--color .overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(221, 177, 10, .95);
+    z-index: 2;
+    transition: all  .5s ease-in-out;
 }
 
-#learn-about i:before {
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: inherit;
-  width: 1em;
-  margin: 0;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1em;
-}
 
-#learn-about .menu li {
-  width: 14.285%;
-  padding: 0 8px;
-  float: left;
-  text-align: center;
-}
-
-#learn-about .community a:hover {
-  color: #0dc2e2;
-}
-
-#learn-about .children a:hover {
-  color: #faae09;
-}
-
-#learn-about .disaster a:hover {
-  color: #0084b2;
-}
-
-#learn-about .agriculture a:hover {
-  color: #24b200;
-}
-#learn-about .women a:hover {
-  color: #ec1a4e;
-}
-
-#learn-about .rural a:hover {
-  color: #9b9801;
-}
-/*
-* =====================================================
-*     Hope-description
-* =====================================================
-*/
-.bg-img {
-  background: url(../img/truck-image.jpg) no-repeat;
-  background-position: 0% 10%;
-  background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(22, 22, 22, 0.685);
+.change__image--color  article  h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 5;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
   
 }
-.bg-img .wrap {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+.change__image--color article h3 span {
+    display: block;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    padding-top: 2px;
 }
 
-.bg-img .hope-description {
-  width: 350px;
-}
+.sec__hope-carousel section article img{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
 
-section .hope-description {
-  position: relative;
-  z-index: 2;
-  color: #FFF;
-  text-align: center;
-  width: 100%;
-}
-
-.bg-img .hope-description p {
-  font-family: "Averia Serif Libre", serif;
-  font-weight: 400;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-}
-
-.bg-img .hope-description p {
-  font-size: 1.15em;
-  line-height: 1.3em;
- 
-}
-.bg-img .hope-description h2 {
-  font-size: 2.25em;
-}
-.hope-description .button {
-  background-color: #0084b2;
-  border-bottom-color: #006b91;
+  .overflow  .change__image--color :hover .overlay {
+    opacity: 1;
   
+ }
+
+    
+.sec__hope-carousel .hope-footer {
+    zoom: 1;
+    max-width: 63.75rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    margin-top: 2em;
 }
 
-.hope-description .button {
-  text-decoration: none;
-  display: absolute;
-  top: 10px;
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  color: #FFF;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-  line-height: 1em;
-  padding: 6px 12px 4px;
-  margin: 0;
-  border-bottom-width: 2px !important;
-  border-bottom-style: solid;
-  position: relative;
-  background-color: #00a7e1;
-  font-size: 0.8em;
+.sec__hope-carousel .hope-nav button {
+    outline: 0;
+    border: 0;
+    background-color: #3f3e44;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 26px;
+    color: #FFF;
+    cursor: pointer;
 }
 
-.hope-description .button:hover {
-  border-bottom: none;
+.sec__hope-carousel .follow__us a:hover span {
+    color: #ddb10a;
 }
+
+.sec__hope-carousel .hope-nav {
+    margin-bottom: 1.5em;
+}
+
+
+.sec__hope-carousel .follow__us,
+.follow__us {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.sec__hope-carousel .follow__us a:after,
+.follow__us a:after {
+    content: " // ";
+}
+
+
+.sec__hope-carousel .follow__us a,
+.follow__us a {
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    color: #3f3e44;
+}
+
+.sec__hope-carousel .follow__us a span,
+.follow__us a span {
+    color: #3f3e44;
+}
+
+
+@media screen and (max-width:480px) {
+    .sec__hope-carousel .hope-logo {
+        display: none;
+    }
+}
+@media screen and (min-width:480px) {
+    .sec__hope-carousel h1 {
+        color: #3f3e44;
+    }
+}
+
+ @media screen and (min-width:768px) {
+    .sec__hope-carousel h1 {
+        padding: 0 20px;
+        color: #3f3e44;
+        margin-bottom: 40px;
+    }
+    .overflow {
+        height: 300px
+    }
+    
+    .sec__hope-carousel .hope-footer {
+        margin-top: 4rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .sec__hope-carousel .follow__us {
+        text-align: center;
+    }
+    .sec__hope-carousel .hope-nav {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    body.home .sec__hope-carousel {
+        padding-top: 80px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .sec__hope-carousel .hope-footer {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+     .sec__hope-carousel .hope-footer {
+        padding-left: .625rem;
+        padding-right: .625rem;
+    }
+    .sec__hope-carousel .follow__us {
+        float: left;
+    } 
+    .sec__hope-carousel .hope-nav {
+        float: right;
+        margin-right: 30px;
+    }
+   
+} 
+
+/*
+* =====================================================
+*    patners section
+* =====================================================
+*/
+
+
+.sec-partners {
+    max-width: 63.75rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem;
+    position: relative;
+    text-align: center;
+}
+
+.sec-partners h1 {
+    margin-bottom: 40px;
+}
+
+.sec-partners .wrap-partners {
+    zoom: 1
+}
+.sec-partners .wrap-partners:after,
+.sec-partners .wrap-partners:before {
+    content: "";
+    display: table;
+}
+.sec-partners .wrap-partners:after {
+    clear: both;
+}
+
+
+.sec-partners .heading-photo,
+.sec-partners .list-partners {
+    padding-left: .625rem;
+    padding-right: .625rem;
+    width: 100%;
+    text-align: center;
+}
+.sec-partners .heading-photo img,
+.sec-partners .list-partners img {
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+}
+.sec-partners .heading-photo img {
+    max-width: 250px;
+    width: 100%;
+}
+
+.sec-partners .list-partners li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: .8rem .3125rem;
+}
+
+@media screen and (min-width: 768px) {
+    .sec-partners {
+        padding: 5em 5%;
+    }
+    .sec-partners h1 {
+        margin-bottom: 70px;
+        line-height: 2rem;
+    }
+    .sec-partners .heading-photo {
+        width: 33.3333%;
+        float: left;
+    }
+    .sec-partners .heading-photo img {
+        padding-top: 4.8em;
+    }
+    .sec-partners .list-partners {
+        width: 66.6666%;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .sec-partners {
+        padding: 7.5rem .625rem;
+    }
+    .sec-partners .heading-photo img {
+        padding-top: 0;
+    }
+    .sec-partners .list-partners li {
+        width: 33.3333%
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .sec-partners .list-partners {
+        margin-bottom: 1.625rem;
+        line-height: 3rem;
+    }
+    .sec-partners h1 {
+        line-height: 2rem;
+    }
+}
+
 
 /*
 * =====================================================
@@ -398,7 +641,7 @@ section .hope-description {
 */
 
 .main-footer {
-	background: url(../img/footer-truck.jpg) no-repeat;
+	background: url(..//footer-truck.jpg) no-repeat;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
