@@ -5,17 +5,32 @@
 * =====================================================
 */
 
+@media screen and (max-width: 1200px) {
+  .nav-item {
+    font-size: 0.8rem;
+  }
+}
+
 .nav-donate {
 	background-color: #FF0000;
 	padding: 12px 15px 8px 15px;
-    font-size: 18px;
-    margin-top: -8px;
-    border: 0px solid white;
-    color: #fff;
-    font-weight: 800;
-    text-align: center;
-    line-height: 13px;
+  font-size: 18px;
+  margin-top: -8px;
+  border: 0px solid white;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  line-height: 13px;
 }
+
+
+@media screen and (max-width: 991px) {
+  .nav-donate {
+    display: inline-block;
+  }
+
+}
+
 
 .nav-donate:hover, .nav-link:focus, .nav-link.active {
   color: #fff;
