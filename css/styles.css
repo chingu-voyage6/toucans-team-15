@@ -40,6 +40,31 @@ ul {
 	font-size: 23px;
 }
 
+@media screen and (max-width: 991px) {
+  .header-content h1 {
+    font-size: 55px;
+  }
+
+  .header-content .btn-learn {
+    padding: 12px 35px;
+    font-size: 23px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .header-content h1 {
+    font-size: 45px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .header-content h1 {
+    font-size: 40px;
+  }
+}
+
 /*
 * =====================================================
 *     Section About
@@ -65,8 +90,9 @@ ul {
 
 .about-text {
 	margin-bottom: 40px;
-    font-size: 1.5em
+  font-size: 1.5em
 }
+
 
 .btn-learn {
 	padding: 6px 12px; 
@@ -80,6 +106,40 @@ ul {
 .btn-learn:hover, .btn-learn:focus, .btn-learn.active {
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .temporary-wrapper {
+    width: 500px;
+  }
+
+  .about-logo {
+    width: 400px;
+    margin-bottom: 40px;
+  }
+
+  .about-text {
+    margin-bottom: 40px;
+    font-size: 1.3em
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .temporary-wrapper {
+    width: 350px;
+  }
+
+  .about-logo {
+    width: 320px;
+    margin-bottom: 40px;
+  }
+
+  .about-text {
+    margin-bottom: 40px;
+    font-size: 1.2em
+  }
+
 }
 
 /*
@@ -955,12 +1015,12 @@ section .hope-description {
 */
 
 .main-footer {
-	background: url(..//footer-truck.jpg) no-repeat;
+	background: url(../img/footer-truck.jpg) no-repeat;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
-    padding-top: 30px;
-    background-color: #3F3E44;
+   padding-top: 30px;
+  background-color: #3F3E44;
 }
 
 .footer-block {
@@ -980,6 +1040,7 @@ section .hope-description {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 120px;
+  flex-wrap: wrap;
 }
 
 .footer-list-block {
@@ -1008,6 +1069,7 @@ section .hope-description {
 	align-items: center;
 	margin-top: 120px;
 	margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .footer-social-icon {
@@ -1025,3 +1087,8 @@ section .hope-description {
 	margin-top: 35px;
 }
 
+@media screen and (max-width: 1200px) {
+  .footer-info, .footer-partners {
+    padding: 0 15px 0 15px;
+  }
+}
