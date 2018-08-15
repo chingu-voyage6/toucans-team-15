@@ -3,21 +3,16 @@
 ## [Chingu Cohorts](https://chingu.io/) - Voyage-6 (Toucans-Team-15)
 
 #### Goal:
-Create a responsive, pixel perfect, and functionally complete copy of the "Convoy of hope" website front page.
-
-* We'll attempt to copy the design and function of the page to the best of our abilities.
-* If there's some function we can't copy, we'll leave a placeholder.
-* Also, we can add to or modify the design if we feel we can do better.
+Create a copy of the "Convoy of hope" website front page.
 
 #### Technologies:
 
 * HTML
 * CSS
-  * Flexbox
-  * CSS Grid   
-  * Bootstrap (if needed)
+  * Flexbox  
+  * Bootstrap
 * JavaScript    
-  * jQuery (if needed)
+  * jQuery
 
 #### Team Guidelines:
 
